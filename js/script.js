@@ -3,7 +3,7 @@ const listRef = document.querySelector('#myUL');
 const inputRef = document.querySelector('#myInput');
 
 const btnAddRef = document.querySelector('.js-addBtn');
-// console.log(btnAddRef);
+
 btnAddRef.addEventListener('click', onAddBtnClick);
 
 function onAddBtnClick(event) { 

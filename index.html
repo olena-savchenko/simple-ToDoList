@@ -14,64 +14,8 @@
 			<input type="text" id="myInput" placeholder="Task to be done..">
 			<span class="addBtn js-addBtn">Add</span>
 		  </div>
-		  
-		  <ul id="myUL"></ul>
-
-		  <!-- 
-			<div id="myDIV" class="header">
-			<h2>My To Do List</h2>
-			<input type="text" id="myInput" placeholder="Title...">
-			<span onclick="newElement()" class="addBtn">Add</span>
-		  </div>
-		  
-		  <ul id="myUL">
-			<li>Hit the gym</li>
-			<li class="checked">Pay bills</li>
-			<li>Meet George</li>
-			<li>Buy eggs</li>
-			<li>Read a book</li>
-			<li>Organize office</li>
-		  </ul>
-		   -->
-		  
+		  <ul id="myUL"></ul>	  
 	</main>
 	<script src="./js/script.js" type="module"></script>
 </body>
 </html>
-
-
-<!-- 
-	document.querySelector('#push').onclick = function(){
-    if(document.querySelector('#newtask input').value.length == 0){
-        alert("Please Enter a Task")
-    }
-    else{
-        document.querySelector('#tasks').innerHTML += `
-            <div class="task">
-                <span id="taskname">
-                    ${document.querySelector('#newtask input').value}
-                </span>
-                <button class="delete">
-                    <i class="far fa-trash-alt"></i>
-                </button>
-            </div>
-        `;
-
-        var current_tasks = document.querySelectorAll(".delete");
-        for(var i=0; i<current_tasks.length; i++){
-            current_tasks[i].onclick = function(){
-                this.parentNode.remove();
-            }
-        }
-
-        var tasks = document.querySelectorAll(".task");
-        for(var i=0; i<tasks.length; i++){
-            tasks[i].onclick = function(){
-                this.classList.toggle('completed');
-            }
-        }
-
-        document.querySelector("#newtask input").value = "";
-    }
-}
- -->
